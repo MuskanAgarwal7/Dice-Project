@@ -1,0 +1,15 @@
+{
+  "name": "project-7--dice-project",
+  "version": "1.0.0",
+  "description": "This is going to be a dice project but hosted on local host via node and expressJs",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Muskan Agarwal",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

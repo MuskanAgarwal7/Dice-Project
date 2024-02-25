@@ -6,6 +6,8 @@ function roll() {
     dice.forEach(function (die) {
         die.classList.add("shake");
     });
+    const audio = new Audio((src = "https://bit.ly/dice-sound"));
+    audio.play();
     setTimeout(function () {
         dice.forEach(function (die) {
             die.classList.remove("shake");
